@@ -1,0 +1,87 @@
+{
+  "uid" : "b8833aa5f707cc9f",
+  "name" : "test_func_04",
+  "fullName" : "interface.test_interface#test_func_04",
+  "historyId" : "0a478472db3fa3f7f79a2342c95ba21d",
+  "time" : {
+    "start" : 1638892259460,
+    "stop" : 1638892259460,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "all",
+    "time" : {
+      "start" : 1638892259423,
+      "stop" : 1638892259423,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "all::0",
+    "time" : {
+      "start" : 1638892268589,
+      "stop" : 1638892268589,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "interface"
+  }, {
+    "name" : "suite",
+    "value" : "test_interface"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-64TGJAFL"
+  }, {
+    "name" : "thread",
+    "value" : "16804-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "interface.test_interface"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8833aa5f707cc9f.json",
+  "parameterValues" : [ ]
+}

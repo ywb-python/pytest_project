@@ -1,0 +1,98 @@
+{
+  "uid" : "ce64c74380c9da67",
+  "name" : "test_03_product[02]",
+  "fullName" : "interface.product_manage.test_proudct.TestProduct#test_03_product",
+  "historyId" : "b85c3e63a92c9a700c37a542a81dc549",
+  "time" : {
+    "start" : 1638892259540,
+    "stop" : 1638892259540,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 已成年",
+  "statusTrace" : "('D:\\\\pytest_project\\\\interface\\\\product_manage\\\\test_proudct.py', 30, 'Skipped: 已成年')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "all",
+    "time" : {
+      "start" : 1638892259423,
+      "stop" : 1638892259423,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "all::0",
+    "time" : {
+      "start" : 1638892268589,
+      "stop" : 1638892268589,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(True, reason='已成年')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "interface.product_manage"
+  }, {
+    "name" : "suite",
+    "value" : "test_proudct"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestProduct"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-64TGJAFL"
+  }, {
+    "name" : "thread",
+    "value" : "16804-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "interface.product_manage.test_proudct"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "goods",
+    "value" : "'图书'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(True, reason='已成年')" ]
+  },
+  "source" : "ce64c74380c9da67.json",
+  "parameterValues" : [ "'图书'" ]
+}
