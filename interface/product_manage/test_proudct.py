@@ -9,6 +9,9 @@ import time
 
 import pytest
 
+from common.yaml_util import read_yaml
+from interface.test_interface import TestInterface
+
 
 class TestProduct:
 
@@ -32,6 +35,17 @@ class TestProduct:
         time.sleep(3)
         print('测试商品')
         print(goods)
+
+    @pytest.mark.parametrize("caseinfo", read_yaml('./interface/product_manage/edit_flag.yaml'))
+    def test_product_023(self, caseinfo):
+        print(caseinfo)
+        print('编辑标签接口')
+        method = caseinfo['request']['method']
+        url = caseinfo['request']['url']+TestInterface.access_token
+        data = caseinfo['request']['data']
+        res = TestInterface.request_util.send_request(method=method, url=url, data=data)
+        result = res.json()
+        print(result)
 
 
 if __name__ == '__main__':

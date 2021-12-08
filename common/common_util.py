@@ -7,15 +7,15 @@
 # @Software: PyCharm
 
 class CommonUtil():
-
-    def setup(self):
-        print('每个用例开始前执行')
-
-    def setup_class(self):
-        print('每个类之前执行')
-
-    def teardown(self):
-        print('每个用例结束后执行')
-
-    def teardown_class(self):
-        print('每个类结束后执行')
+    pass
+    # def setup(self):
+    #     print('每个用例开始前执行')
+    #
+    # def setup_class(self):
+    #     print('每个类之前执行')
+    #
+    # def teardown(self):
+    #     print('每个用例结束后执行')
+    #
+    # def teardown_class(self):
+    #     print('每个类结束后执行')

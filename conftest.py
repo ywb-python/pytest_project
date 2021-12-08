@@ -20,7 +20,7 @@ def excute_sql(request):
     print('关闭数据库连接')
 
 
-@pytest.fixture(scope='session', autouse=True, name='all')
+@pytest.fixture(scope='session', autouse=False, name='all')
 def login_status():
     print('登录前')
     yield "success"

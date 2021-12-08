@@ -1,0 +1,98 @@
+{
+  "uid" : "5e9287e650e7f397",
+  "name" : "test_product_01[01]",
+  "fullName" : "interface.product_manage.test_proudct.TestProduct#test_product_01",
+  "historyId" : "b767e53113e5fbf3fdc817dc0c5ddc6f",
+  "time" : {
+    "start" : 1638974232433,
+    "stop" : 1638974232433,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 异常",
+  "statusTrace" : "('D:\\\\pytest_project\\\\interface\\\\product_manage\\\\test_proudct.py', 20, 'Skipped: 异常')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "goods",
+    "time" : {
+      "start" : 1638974232443,
+      "stop" : 1638974232443,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "goods::0",
+    "time" : {
+      "start" : 1638974232443,
+      "stop" : 1638974232443,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='异常')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "interface.product_manage"
+  }, {
+    "name" : "suite",
+    "value" : "test_proudct"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestProduct"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-64TGJAFL"
+  }, {
+    "name" : "thread",
+    "value" : "20756-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "interface.product_manage.test_proudct"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "goods",
+    "value" : "'足球'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='异常')" ]
+  },
+  "source" : "5e9287e650e7f397.json",
+  "parameterValues" : [ "'足球'" ]
+}

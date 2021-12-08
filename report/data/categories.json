@@ -1,5 +1,47 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "KeyError: 'access_token'",
+      "children" : [ {
+        "name" : "test_interface_01[caseinfo0]",
+        "uid" : "636fd4d7fccb318d",
+        "parentUid" : "7c4cbec72ba90dadd34e7cfd2c493d54",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638974232111,
+          "stop" : 1638974232352,
+          "duration" : 241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '接口鉴权码', 'request': {'method': 'get', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'data': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': {'-eq': {'expries in': 7200}}}" ]
+      }, {
+        "name" : "test_interface_01[caseinfo0]",
+        "uid" : "5018da4503f07a47",
+        "parentUid" : "7c4cbec72ba90dadd34e7cfd2c493d54",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638974232525,
+          "stop" : 1638974232606,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '接口鉴权码', 'request': {'method': 'get', 'url': 'https://api.weixin.qq.com/cgi-bin/token', 'data': {'grant_type': 'client_credential', 'appid': 'wx6b11b3efd1cdc290', 'secret': '106a9c6157c4db5f6029918738f9529d'}}, 'validate': {'-eq': {'expries in': 7200}}}" ]
+      } ],
+      "uid" : "7c4cbec72ba90dadd34e7cfd2c493d54"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }
