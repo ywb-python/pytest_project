@@ -1,0 +1,57 @@
+{
+  "uid" : "1a203ae0e0912f47",
+  "name" : "test_login_01",
+  "fullName" : "testcase.aaa_login#test_login_01",
+  "historyId" : "3ccc9309c6c5286c5b34f74049d17da8",
+  "time" : {
+    "start" : 1638974232657,
+    "stop" : 1638974232657,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "aaa_login"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-64TGJAFL"
+  }, {
+    "name" : "thread",
+    "value" : "20756-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.aaa_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a203ae0e0912f47.json",
+  "parameterValues" : [ ]
+}

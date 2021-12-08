@@ -19,5 +19,5 @@ if __name__ == '__main__':
     #              './testcase/test_login.py::TestLogin::test_interface_03'])
     # 'interface_testcase/test_login.py::TestLogin::test_interface_03'
     # pytest.main(['-vs', './testcase/test_login.py', '-n=3'])
-    # pytest.main(['-vs','./interface/test_fixture.py::TestLogin::test_01_db'])
+    # pytest.main(['-vs','./interface/product_manage/test_proudct.py::TestProduct::test_product_023'])
     # pytest.main(['-vs', './interface/product_manage'])

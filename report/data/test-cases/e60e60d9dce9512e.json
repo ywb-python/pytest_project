@@ -1,0 +1,126 @@
+{
+  "uid" : "e60e60d9dce9512e",
+  "name" : "test_product_02[03-01]",
+  "fullName" : "interface.product_manage.test_proudct.TestProduct#test_product_02",
+  "historyId" : "56570fd3e5bb4939270224e89c3aa228",
+  "time" : {
+    "start" : 1638974232464,
+    "stop" : 1638974232464,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "db",
+    "time" : {
+      "start" : 1638974232464,
+      "stop" : 1638974232464,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "goods",
+    "time" : {
+      "start" : 1638974232464,
+      "stop" : 1638974232464,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "db::0",
+    "time" : {
+      "start" : 1638974232464,
+      "stop" : 1638974232464,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "goods::0",
+    "time" : {
+      "start" : 1638974232464,
+      "stop" : 1638974232464,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "interface.product_manage"
+  }, {
+    "name" : "suite",
+    "value" : "test_proudct"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestProduct"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-64TGJAFL"
+  }, {
+    "name" : "thread",
+    "value" : "20756-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "interface.product_manage.test_proudct"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "db",
+    "value" : "{'红楼梦': '林黛玉'}"
+  }, {
+    "name" : "goods",
+    "value" : "'百货'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e60e60d9dce9512e.json",
+  "parameterValues" : [ "{'红楼梦': '林黛玉'}", "'百货'" ]
+}

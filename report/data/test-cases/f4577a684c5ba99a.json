@@ -1,0 +1,60 @@
+{
+  "uid" : "f4577a684c5ba99a",
+  "name" : "test_interface_03",
+  "fullName" : "interface.product_manage.test_proudct.TestInterface#test_interface_03",
+  "historyId" : "7e201b5f2a20cfd7ea6f29204a535270",
+  "time" : {
+    "start" : 1638974232637,
+    "stop" : 1638974232637,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "interface.product_manage"
+  }, {
+    "name" : "suite",
+    "value" : "test_proudct"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestInterface"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-64TGJAFL"
+  }, {
+    "name" : "thread",
+    "value" : "20756-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "interface.product_manage.test_proudct"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f4577a684c5ba99a.json",
+  "parameterValues" : [ ]
+}

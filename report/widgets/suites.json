@@ -1,26 +1,26 @@
 {
   "total" : 5,
   "items" : [ {
-    "uid" : "d659dc081161e12a2d50d19db2039310",
-    "name" : "interface",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 11,
-      "unknown" : 0,
-      "total" : 11
-    }
-  }, {
     "uid" : "3434ef39b72a08bc980e1f194f5005ae",
     "name" : "interface.product_manage",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 6,
-      "passed" : 9,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 15
+      "total" : 19
+    }
+  }, {
+    "uid" : "d659dc081161e12a2d50d19db2039310",
+    "name" : "interface",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 11
     }
   }, {
     "uid" : "7d3977dcbf31acd3e26ecbe96342e45e",
